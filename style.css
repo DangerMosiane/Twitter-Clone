@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+}
+
 .navbar{
     height: 100vh;
     width: 314px;
@@ -74,4 +78,14 @@
 .user-name{
     margin-left: 12px;
     color: #6c7075;
+}
+
+.mainbody{
+    display: flex;
+    overflow: hidden;
+    width: 600px;
+    background-color: black;
+}
+.mainbody h6{
+    color: white;
 }
