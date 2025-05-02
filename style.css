@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 
-body{
+.main-container{
     display: flex;
 }
 
+/* NAVBAR */
 .navbar{
     height: 100vh;
     width: 314px;
     background-color: black;
     position: sticky;
+    top: 0%;
+    border-right: 1px solid #6c7075;
     
 }
 .side-bar{
@@ -24,7 +27,7 @@ body{
     color: white;
     margin-left: 45px;
 }
-.navbar-icon{
+.icons{
     width: 244px;
     display: flex;
     align-items: center;
@@ -32,6 +35,16 @@ body{
     color: white;
     cursor: pointer;
     padding-left: 10px;
+}
+
+.navbar-icon{
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
 
 }
 .navbar-icon i{
@@ -80,12 +93,112 @@ body{
     color: #6c7075;
 }
 
+/* MAINBODY */
 .mainbody{
-    display: flex;
-    overflow: hidden;
     width: 600px;
     background-color: black;
+    overflow-y: scroll;
 }
-.mainbody h6{
+.home-nav{
+    height: 153px;
+    border-bottom: 1px solid #6c7075;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 30px;
+    padding-left: 6px;
+}
+.home span{
     color: white;
+}
+
+.whats-happening-bar{
+    display: flex;
+    padding-left: 16px;
+}
+.happening-text{
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 56px;
+}
+.happening-text h6{
+    font-size: 20px;
+}
+.home-nav-icons{
+    display: flex;
+    justify-content: space-around;
+    height: 48px;
+}
+.nav-home span{
+    color: dodgerblue;
+    height: 34px;
+    width: 34px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.tweet-btn{
+    color: white;
+    background-color: dodgerblue;
+    height: 36px;
+    width: 78px;
+    border: 1px solid dodgerblue;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.show-tweet{
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    border-bottom: 1px solid #6c7075;
+}
+.show-tweet:hover{
+    background-color: #0e1111;
+}
+.tweet{
+    padding: 10px 0;
+    color: dodgerblue;
+}
+
+.mainbody-tweets{
+    border-bottom: 1px solid #6c7075;
+}
+.mainbody-tweet{
+    display: flex;
+    
+}
+.mainbody-tweet img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.account-image{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.account-info{
+    padding-left: 10px;
+}
+.tweet-post{
+    padding-left: 10px;
+    padding-right: 13px;
+}
+.posting{
+    color: white;
+}
+.tweet-icons{
+    display: flex;
+    justify-content: space-around;
+    color: #6c7075;
+    cursor: pointer;
+}
+.tweet-icons span{
+    padding: 10px;
+}
+.tweet-icons span:hover{
+    background-color: lightgray;
+    border-radius: 50px;
 }
