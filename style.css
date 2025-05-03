@@ -207,6 +207,8 @@
 .trending-bar{
     background-color: black;
     width: calc(100% - 914px);
+    display: flex;
+    flex-direction: column;
 }
 .searchbar{
     display: flex;
@@ -237,7 +239,55 @@
 }
 
 .trends{
+    margin-top: 20px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+.trend{
+    background-color: #181818;
+    width: 348px;
+    border-radius: 20px;
+
+}
+.trends-header{
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 16px 12px;
+}
+
+
+
+.trending-news{
+    background-color: #181818;
+    
+}
+.news{
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    
+}
+.news-profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 12px;
+}
+.news-profile p{
+    color: #6c7075;
+    margin: 1px;
+}
+.news-profile h6{
+    color: white;
+    margin: 1px;
+    cursor: pointer;
+}
+.news-profile i{
+    color: #6c7075;
+    cursor: pointer;
+}
+.showmore-trend{
+    padding: 16px 12px 5px 12px;
+    color: dodgerblue;
 }
