@@ -202,3 +202,42 @@
     background-color: lightgray;
     border-radius: 50px;
 }
+
+
+.trending-bar{
+    background-color: black;
+    width: calc(100% - 914px);
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+.search{
+    background-color: #181818;
+    width: 360px;
+    height: 40px;
+    border-radius: 25px;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+.search i{
+    color: #6c7075;
+    margin: 0;
+    align-items: center;
+}
+.search input{
+    padding: 0 20px 0 6px;
+    background-color: #181818;
+    color: #6c7075;
+    border: none;
+    width: 90%;
+}
+
+.trends{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
