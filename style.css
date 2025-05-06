@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* MAINBODY */
 .main-container{
     display: flex;
 }
@@ -175,6 +176,9 @@
     width: 40px;
     border-radius: 50px;
 }
+.mainbody-tweet:hover{
+    background-color: #0e1111;
+}
 .account-image{
     padding-top: 10px;
     padding-left: 15px;
@@ -203,7 +207,7 @@
     border-radius: 50px;
 }
 
-
+/* TRENDING BAR */
 .trending-bar{
     background-color: black;
     width: calc(100% - 914px);
@@ -263,6 +267,9 @@
     background-color: #181818;
     
 }
+.trending-news:hover{
+    background-color: #0e1111;
+}
 .news{
     padding: 0;
     margin: 0;
@@ -289,10 +296,14 @@
 }
 .showmore-trend{
     padding: 16px 12px 5px 12px;
+    border-radius: 25px;
     color: dodgerblue;
 }
+.showmore-trend:hover{
+    background-color: #0e1111;
+}
 
-
+/* WHO TO FOLLOW */
 .who-to-follow{
     margin-top: 20px;
     display: flex;
@@ -314,6 +325,9 @@
 .who-profile{
     display: flex;
     justify-content: space-between;
+}
+.who-profile:hover{
+    background-color: #0e1111;
 }
 .profile-pic{
     display: flex;
